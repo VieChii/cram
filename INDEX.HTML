@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Dose Chamber (DDC)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="icon">
+                <h2 class="logo">Evening spirit</h2>
+            </div>
+            <nav class="menu" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="#profile">About</a></li>
+                    <li><a href="#about">Record</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger-menu" aria-label="Toggle navigation menu">&#9776;</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <ul class="hero-list">
+                        <li>Life,</li>
+                        <li>LOL,</li>
+                        <li>&</li>
+                        <li>Everything</li>
+                    </ul>
+                    <p>Step into our realm of endless possibilities and thrilling escapades! Join us as we explore, discover, and create unforgettable stories together. Embark on a journey where imagination knows no bounds and fun is always on the horizon. Join us and create long-lasting memories.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="media-section">
+            <div class="container">
+                <div class="media-layout">
+                    <div class="left-media">
+                        <h3>Song Title</h3>
+                        <p class="short-desc">
+                            "Welcome to our 'History & Innovation in a Box' diorama! In this miniature world, the timeless spirit of Christmas illuminates Burdeos Port. Imagine the joyful sounds of carols drifting from the local church, drawing the community together under a canopy of festive lights. This scene captures not just a moment, but the enduring warmth of faith and togetherness that defines Christmas, reimagined for today. It's a celebration where tradition meets innovation, reminding us of the true magic of the season."
+                        </p>
+                    </div>
+                    <div class="right-media">
+                        <div class="landscape-box">
+                            <iframe src="485592307_9025535250908043_2363461321357222375_n.mp4" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const hamburgerMenu = document.querySelector('.hamburger-menu');
+        const navList = document.querySelector('.nav-list');
+
+        hamburgerMenu.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
